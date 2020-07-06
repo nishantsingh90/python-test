@@ -3,7 +3,8 @@
 
 # In[4]:
 
-
+# Given a number (greater than 2), print two prime numbers whose sum will be equal to
+# the given number, else print -1 if no such number exists.
 def sum_of_primes(num):
     isPrime = 1
     for i in range (2,int(num/2),1):
@@ -24,7 +25,8 @@ if (flag == 0):
     print(n,"cannot be expressed as the sum of two prime numbers")
 
 
-# In[3]:
+#Given a list L and integer K, find the maximum for each and every contiguous subarray
+# of size K. Write a function that takes the list as input and returns the output as a list.
 
 
 def printMax(arr, n, k):
